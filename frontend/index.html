@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iChat-App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="./client.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="header">
+      <img src="./res/logo.png" alt="iChat-App" />
+      <p>Let's connect together</p>
+    </div>
+    <div class="container">
+      <!-- <div class="message left">Basant: Hi Basant this side</div>
+      <div class="message right">Nisha: Hi Nisha this side</div>
+      <div class="message left">Basant: How are you</div>
+      <div class="message right">Nisha: Fine, you say?</div> -->
+    </div>
+    <div class="section">
+      <form id="form" action="#">
+        <input id="inputMessage" type="text" />
+        <button id="btnSend" type="submit">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
